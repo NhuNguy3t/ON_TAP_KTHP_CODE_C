@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+#include<string.h>
+#include<ctype.h>
+
+int main(){
+	char c[1000];
+	gets(c);
+	int x=strlen(c);
+	for(int i=0; i<x; i++){
+		printf("%c",toupper(c[i]));
+	}
+	return 0;
+}
